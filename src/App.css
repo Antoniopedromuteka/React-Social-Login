@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
 }
 
@@ -15,10 +16,29 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .list{
     display: flex;
     align-items: center;
     list-style: none;
+}
+
+.listItem{
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;  
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }
