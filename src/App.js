@@ -5,12 +5,12 @@ import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Login from "./pages/Login";
 
-import {BrowserRouter, Routes, Route, Link, Navigate} from "react-router-dom"
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 
 
 function App() {
 
-  const user = false;
+  const user = true;
 
   return (
     <BrowserRouter>
