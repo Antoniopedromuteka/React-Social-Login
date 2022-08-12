@@ -243,3 +243,10 @@ input{
     font-weight: 500;
     color: lightgray;
 }
+
+
+.link{
+
+    color: inherit;
+    text-decoration: none;
+}
